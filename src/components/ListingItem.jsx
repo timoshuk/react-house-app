@@ -6,7 +6,7 @@ import bathtubIcon from "../assets/svg/bathtubIcon.svg";
 const ListingItem = ({
   listing: {
     type,
-    imageUrls,
+    imgUrls,
     name,
     location,
     offer,
@@ -21,7 +21,7 @@ const ListingItem = ({
   return (
     <li className="categoryListing">
       <Link to={`/category/${type}/${id}`} className="categoryListingLink">
-        <img src={imageUrls[0]} alt={name} className="categoryListingImg" />
+        <img src={imgUrls[0]} alt={name} className="categoryListingImg" />
         <div className="categoryListingDetails">
           <p className="categoryListingLocation">{location}</p>
           <p className="categoryListingName">{name}</p>

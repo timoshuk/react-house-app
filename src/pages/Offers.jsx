@@ -56,7 +56,7 @@ const Offers = () => {
   return (
     <div className="category">
       <header>
-        <p className="pageHeader">Offwers</p>
+        <p className="pageHeader">Offers</p>
       </header>
 
       {loading ? (
