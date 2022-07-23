@@ -58,8 +58,9 @@ const Contact = () => {
               href={`mailto:${landlord.email}?Subject=${searchParams.get(
                 "listingName"
               )}&body=${message}`}
+              className="primaryButton"
             >
-              <button className="primaryButton">Send Message</button>
+              Send Message
             </a>
           </form>
         </main>
